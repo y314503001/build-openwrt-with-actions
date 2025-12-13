@@ -7,17 +7,17 @@ on:
         description: "openWRT 仓库的拥有者 (Owner of openWRT repo)"
         type: string
         required: true
-        default: "coolsnowwolf"
+        default: "y314503001"
       repo:
         description: "openWRT 仓库的名字 (Name of openWRT repo)"
         type: string
         required: true
-        default: "lede"
+        default: "openwrt-6.x"
       branch:
         description: "openWRT 仓库的分支 (Branch of openWRT repo)"
         type: string
         required: true
-        default: "master"
+        default: "k6.12-nss"
       multithreading:
         description: "开启多线程编译 (Enable multithreading build)"
         type: boolean
